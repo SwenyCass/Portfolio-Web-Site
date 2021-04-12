@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Controllers\Sobre.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\materialize\imagens\" />
+    <Folder Include="wwwroot\lib\materialize\icones\" />
+    <Folder Include="wwwroot\lib\main\" />
+  </ItemGroup>
+
+</Project>
