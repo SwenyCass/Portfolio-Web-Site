@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sweny\\source\\repos\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj": {}
+    "C:\\Users\\sweny\\source\\repos\\Portfolio-Web-Site\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sweny\\source\\repos\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj": {
+    "C:\\Users\\sweny\\source\\repos\\Portfolio-Web-Site\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sweny\\source\\repos\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj",
+        "projectUniqueName": "C:\\Users\\sweny\\source\\repos\\Portfolio-Web-Site\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj",
         "projectName": "Portfolio.WebSite",
-        "projectPath": "C:\\Users\\sweny\\source\\repos\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj",
+        "projectPath": "C:\\Users\\sweny\\source\\repos\\Portfolio-Web-Site\\Portfolio.WebSite\\Portfolio.WebSite\\Portfolio.WebSite.csproj",
         "packagesPath": "C:\\Users\\sweny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sweny\\source\\repos\\Portfolio.WebSite\\Portfolio.WebSite\\obj\\",
+        "outputPath": "C:\\Users\\sweny\\source\\repos\\Portfolio-Web-Site\\Portfolio.WebSite\\Portfolio.WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

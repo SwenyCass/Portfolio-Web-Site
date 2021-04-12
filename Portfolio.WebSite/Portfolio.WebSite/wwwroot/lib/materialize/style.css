@@ -8,14 +8,20 @@
 section {
     padding: 100px 0;
 }
+
 main {
     flex: 1 0 auto;
 }
 
+nav .nav-wrapper {
+    /* position: relative; */
+    height: 100%;
+}
+
 .meu-nome {
     font-family: 'Lobster', cursive;
-        color: #9966ff;
-/*    color: #817E7E;*/
+    color: #9966ff;
+    /*    color: #817E7E;*/
     font-size: 25px;
 }
 
@@ -23,9 +29,10 @@ main {
     margin: 50px;
 }
 
-.texto-bem-vindo{
-    text-align:justify;
+.texto-bem-vindo {
+    text-align: justify;
 }
+
 .meu-logo {
     width: 35px;
     height: 35px;
@@ -38,6 +45,7 @@ main {
 h2 {
     text-align: center;
     margin: 1.0933333333rem 0 .656rem 0;
+    font-size: 2em;
 }
 
 .page-footer {
@@ -55,7 +63,7 @@ p {
 }
 
 .sobre-mim {
-    padding: 10px 60px 10px 10px;
+    padding: 10px 60px 10px 30px;
     text-align: justify;
     line-height: 24px;
     margin: auto;
@@ -66,20 +74,28 @@ p {
     line-height: 24px;
 }
 
+.responsivo-sobre-mim {
+    display: flex;
+    flex-direction: row;
+/*    font-size: 30px;*/
+    text-align: center;
+}
+
 .container-header {
     background: #40092D;
     color: #FFFFFF;
     padding: 25px;
 }
+
     .container-header p {
         font-family: "Allura";
         color: rgba(255, 255, 255, 0.2);
         margin-bottom: 0;
         font-size: 60px;
         margin-top: -30px;
-}
+    }
 
-.logo-footer{
+.logo-footer {
     margin: 0 100px;
 }
 
@@ -105,15 +121,16 @@ p {
 }
 
 .img-perfil {
-    width: 400px;
-    height: 400px;
-    margin: 40px;
+    width: 270px;
+    margin: auto;
+    height: 270px;
 }
 
 .img-profile {
     border-radius: 200px;
     box-shadow: -8px 8px 20px 0px #000000;
 }
+
 .pb-3 {
     -webkit-animation: fadeIn 2s;
     -moz-animation: fadeIn 2s;
@@ -122,8 +139,7 @@ p {
 
 .card-container {
     margin: 0 20px 30px;
-
-/*    border-radius: 9px;
+    /*    border-radius: 9px;
     box-shadow: -3px 6px 12px 0px black;*/
 }
 
@@ -451,5 +467,11 @@ blockquote {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    .responsivo-sobre-mim {
+        flex-direction: column;
     }
 }
